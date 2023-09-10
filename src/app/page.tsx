@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <section className={'flex justify-center'}>
       <div className={'min-w-max flex flex-col items-center select-none'}>
-        <Image src={Mypic} alt='my pick' className={'rounded-full w-80'} priority={true} loading='eager'/>
+        <Image src={Mypic} alt='my pick' className={'rounded-full w-80'}/>
         <h2 className="text-5xl py-2 text-orange-500 font-medium dark:text-amber-500 md:text-6xl">
             Erfan Ezizi
         </h2>
