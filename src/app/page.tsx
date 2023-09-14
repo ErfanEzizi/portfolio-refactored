@@ -22,6 +22,10 @@ export default function Home() {
             <SiProtonmail size={20}/>
           </a>
         </div>
+        <div className={"flex items-center gap-2 py-4"}>
+          <h3 className={"text-xs sm:text-xl"}> Portfolio Work in progress </h3>
+          <img className={"w-20"}src={'https://i0.wp.com/www.bapl.org/wp-content/uploads/2019/02/old-under-construction-gif.gif?ssl=1'} />
+        </div>
       </div>
     </section>
   )
