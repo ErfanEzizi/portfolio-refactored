@@ -13,7 +13,7 @@ export default function Layouts({ children }: {children: React.ReactNode}) {
     <html lang="en" className={darkMode ? "dark" : ""}>
     <body className={'dark:bg-zinc-900 bg-orange-50 dark:text-slate-100 text-zinc-950 font-Silkscreen md:container md:mx-auto p-4 transition-colors duration-1000'}>
         <section>
-          <nav className='flex py-10 mb-12 justify-between'>
+          <nav className='flex py-10 justify-between'>
             <Image src={MyIcon} alt='myicon' width={60} height={60} priority={true}/>
             <ul className='flex items-center gap-5'>
               <li>

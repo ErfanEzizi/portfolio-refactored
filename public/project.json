@@ -1,0 +1,23 @@
+[
+    {
+        "title": "'The saray restaurang' website",
+        "src": "/project-saray.png",
+        "url": "https://www.thesaray.se/",
+        "techStack": ["Typescript", "Nextjs", "Tailwind", "SCSS", "CloudFlare"],
+        "description": "A marketing website for a restaurant based in Stockholm Sweden"
+    },
+    {
+        "title": "Photographer Portfolio",
+        "src": "/kavser.png",
+        "url": "https://kaku-port.web.app/",
+        "techStack": ["Typescript", "React", "SCSS", "Firebase"],
+        "description": "A simple Portfolio React application hosted on Firebase for a Swedish photographer."
+    },
+    {
+        "title": "Coly Technologies API Documentaion",
+        "src": "/project-coly-api.png",
+        "url": "https://coly-technologies.github.io/",
+        "techStack": ["Markdown"],
+        "description": "Co autherd api documentaion of Coly Technologies"
+    }
+]
