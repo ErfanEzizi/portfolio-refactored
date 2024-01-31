@@ -1,0 +1,40 @@
+.card-container {
+  position: relative;
+  .card {
+      width: 100%;
+      max-width: 370px;
+      height: 530px;
+      background-color: rgb(245 158 11 / var(--tw-text-opacity));
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 0.4s ease-in-out;
+        
+    .project-image {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+        
+  }
+  .link-container {
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    .link {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+  }
+}
+
+.card-container:hover {
+  .card {
+    filter: blur(5px);
+  }
+
+  .link-container {
+    opacity: 1;
+  }
+}
